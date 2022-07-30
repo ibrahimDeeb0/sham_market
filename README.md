@@ -1,1 +1,1 @@
-# firebase-store
+# simple shoping app
