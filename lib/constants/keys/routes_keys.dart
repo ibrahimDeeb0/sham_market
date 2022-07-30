@@ -1,0 +1,10 @@
+// const String routeSplash = '/splash';
+const String routeHomeBottomBar = '/home-bottom-bar';
+const String routeHomeScreen = '/home-screen';
+const String routeCategoriesScreen = '/categories-screen';
+const String routeFavoritesScreen = '/favorites-screen';
+const String routeProfileScreen = '/profile-screen';
+const String routeProductsScreen = '/products-screen';
+const String routeCartScreen = '/cart-screen';
+// const String routeCheckoutScreen = '/checkout-screen';
+const String routeTestScreen = '/test-screen';

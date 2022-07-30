@@ -1,0 +1,66 @@
+ // Future<void> getData() async {
+  //   final categoriesList = await _collectionRef
+  //       .get().
+  //   .then((QuerySnapshot<Map<String, dynamic>> snap) {
+  // final Map<String, dynamic> data = snap.docs as Map<String, dynamic>;
+  // return CategoriesModels.fromFirestore(data);
+  // });
+
+  // // Get docs from collection reference
+  // final QuerySnapshot<Object?> querySnapshot = await _collectionRef.get();
+  // // Get data from docs and convert map to List
+  // final List<Object?> allData =
+  //     querySnapshot.docs.map((QueryDocumentSnapshot<Object?> doc) {
+  //   final data = doc.data();
+  //   return CategoriesModels.fromFirestore(data, doc.options);
+  // }).toList();
+  // CategoriesModels.fromFirestore(querySnapshot, doc.options);
+
+  // consoleLog('Successfully completed');
+  // consoleLog(allData);
+
+  // void getDataOnce_customObjects() async {
+  //   // [START get_data_once_custom_objects]
+  //   final ref = db.collection('categories').withConverter(
+  //         fromFirestore: CategoriesModels.fromFirestore,
+  //         toFirestore: (CategoriesModels category, _) => category.toFirestore(),
+  //       );
+  //   final docSnap = await ref.get();
+  //   final city = docSnap.data(); // Convert to City object
+  //   if (city != null) {
+  //     print(city);
+  //   } else {
+  //     print("No such document.");
+  //   }
+  //   // [END get_data_once_custom_objects]
+  // }
+}
+
+  // void getAllCategoryList() {
+  //   _collectionRef.get().then((QuerySnapshot<Object?> querySnapshot) {
+  //     querySnapshot.docs.forEach((QueryDocumentSnapshot<Object?> doc) {
+  //       final Map<String, dynamic> data = doc.data();
+        // categoryList.add(CategoriesModels(
+        //   id: doc.id,
+        //   title: data['name'],
+        //   image: data['state'],
+        // ));
+  //     });
+  //   });
+  // }
+
+  /*
+
+categoryList.add(CategoriesModels(
+        id: doc.id,
+        title: doc['title'],
+        image: doc['image'],
+      ));
+
+  */
+
+
+  // for (int i = 0; i < categoryList.length; i++) {
+    //   consoleLog(categoryList[i].title);
+    //   consoleLog(i);
+    // }

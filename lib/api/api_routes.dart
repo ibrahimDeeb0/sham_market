@@ -1,0 +1,9 @@
+const String apiLanguages = '/languages';
+const String apiSendOtp = '/account/send-otp';
+const String apiVerificationOtp = '/account/verify-otp';
+const String apiCompleteProfile = '/account/update';
+const String apiHome = '/home';
+const String apiAddresses = '/addresses';
+const String apiSettings = '/settings';
+const String apiTerminologies = '/settings/terminologies';
+const String apiBranches = '/branches';
